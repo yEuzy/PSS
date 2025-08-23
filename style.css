@@ -20,21 +20,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2px;
-
-    & #imglogo{
-        background: ;
-        height: 100%;
-        width: 10%;
-        border-radius: 50%;
+    padding: 2px;        
 
         & img{
-            width: 100%;
+            width: 10%;
             height: 100%;
             border-radius: 50%;
         }
     }
-}
+
 .produtos{
     box-sizing: border-box;
     max-width: 95vw;
