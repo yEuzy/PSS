@@ -4,7 +4,7 @@
     
     :root{
         --baseColor1: #353839 ;
-        --baseColor2: #FFD700 ;
+        --baseColor2: #ffc60d ;
     }
 
     *{
@@ -29,7 +29,7 @@
         align-items: center;
         justify-content: center;
         padding-bottom: 2px;   
-        background-color:#E0BC00;
+        background-color:var(--baseColor2);
         box-sizing: border-box;
         margin-bottom: 5px;    
         
@@ -64,7 +64,7 @@
     }
 
     #sucos{
-        background: #E0BC00;
+        background: var(--baseColor2);
         
     }
 
@@ -74,11 +74,11 @@
     }
     
     #bebidas{
-        background: #E0BC00;
+        background: var(--baseColor2);
     }
     
     #cervejas{
-        background: #E0BC00;
+        background: var(--baseColor2);
     }
 
     #menu{
@@ -96,7 +96,7 @@
         
         
         & button{
-            background-color: #E0BC00;
+            background-color: var(--baseColor2);
             width: 200vw;
             height: 5vh;
             margin: 1vw;
