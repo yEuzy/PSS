@@ -45,11 +45,13 @@
         }
 
         #bebidasetc{
-            
+            position: relative;
+            transition:left 1s ease;
         }
 
         .produtos{
             /*border: 1px black solid;*/
+            background-color: var(--baseColor2);
             box-sizing: border-box;
             max-width: 95vw;
             min-width: 90vw;
@@ -58,7 +60,9 @@
             overflow: hidden;
             margin: 10px;
             padding: 5px;
+            margin-bottom: 15px;
             box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+            transition: 10s;
 
     & table{
             
@@ -69,23 +73,6 @@
         
     }
 
-    #sucos{
-        background: var(--baseColor2);
-        
-    }
-
-    #aguacoco{
-        background: green;
-        
-    }
-    
-    #bebidas{
-        background: var(--baseColor2);
-    }
-    
-    #cervejas{
-        background: var(--baseColor2);
-    }
 
     #menu{
         display: flex;
@@ -115,13 +102,19 @@
 
         & button:hover{
             cursor: pointer;
-            scale: 1.1;
+            transform: translateY(-5px);
+            color: white;
             transition: 0.5s;
         }
         
+         
 
         
     }
+
+    #bebidasetc{
+            display: block;
+        }
 
     .h2diferente{
         border-radius: 1vh ;
