@@ -37,7 +37,7 @@
         
 
             & img{
-                width: 75px;
+                width: 100  px;
                 height: 75px;
                 border-radius: 50%;
                 
@@ -114,7 +114,21 @@
 
     #bebidasetc{
             display: block;
+
+            
         }
+
+    #refeicoes{
+        display: none;
+    }
+
+    #porcoes{
+        display: none;
+    }
+
+    #pasteis{
+        display: none;
+    }
 
     .h2diferente{
         border-radius: 1vh ;
