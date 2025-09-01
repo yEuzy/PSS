@@ -1,6 +1,6 @@
 
 
-@media (max-width: 1000px) {
+@media (max-width: 450px) {
     
     :root{
         --baseColor1: #353839 ;
@@ -15,7 +15,6 @@
         border: 0;
         padding: 0;
     }
-    
 
     body{
         display: flex;
@@ -23,7 +22,6 @@
         justify-content: center;
         align-items: center;
     }
-
     
     #navbar{
         /*background: rgb(255, 145, 0);*/
@@ -44,60 +42,7 @@
                 border-radius: 50%;
                 
             }
-
-            & #imglogo{
-                
-                width: 75%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-
-            & #instagram{
-                position: absolute;
-                right: 10px;
-
-                & a{
-                    text-decoration: none;
-                }
-            }
         }
-
-        .fa {
-            padding: 10px;
-            font-size: 100px;
-            width: 30px;
-            height: 30px;
-            display: flex;
-            border-radius: 50%;
-            text-align: center;
-}
-
-
-    @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
-  @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-
-
-  a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
-  }
-
-.ft14 {
-font-size: 30px !important;
-  color:red;
-  
-}
-
-i{
-   color:#ffff !important;
-   text-align:center;
-}
-
-
 
         #bebidasetc{
             position: relative;
